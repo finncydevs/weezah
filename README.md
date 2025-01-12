@@ -27,3 +27,6 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
+Tutorial by WPU made by Finn
