@@ -118,7 +118,9 @@ import { scrollInto } from "@/utils/script";
               target="_blank"
               >Jindan</a
             >, Menggunakan
-            <a href="vuejs.org" target="_blank" class="text-green-500">Vue</a>
+            <a href="https://vuejs.org/" target="_blank" class="text-green-500"
+              >Vue</a
+            >
             dan
             <a
               href="https://tailwindcss.com/"

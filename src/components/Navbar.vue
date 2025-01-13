@@ -1,81 +1,78 @@
 <script setup>
-import { ref, onMounted } from "vue";
+import { onMounted } from "vue";
 import { scrollInto } from "@/utils/script";
 
-async function navbarScroll() {
+async function scrollNav() {
   const header = document.querySelector("header");
   const fixedNav = header.offsetTop;
+
   window.onscroll = () => {
-    if (window.pageYOffset > fixedNav) {
+    if (window.scrollY > fixedNav) {
       header.classList.add("navbar-fixed");
     } else {
       header.classList.remove("navbar-fixed");
     }
   };
 }
-
 onMounted(() => {
-  navbarScroll();
+  scrollNav();
 });
 </script>
 
 <template>
-  <header
-    id="beranda"
-    class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
-  >
-    <div class="container mx-auto">
-      <div class="flex items-center justify-between relative">
+  <header class="absolute top-0 left-0 z-10 w-full items-center bg-transparent">
+    <div class="container">
+      <div class="relative flex items-center justify-between py-4">
+        <!-- Reduced padding here -->
         <div class="px-4">
           <a
-            :click="scrollInto('beranda')"
-            class="font-bold text-primary block py-6 text-2xl lg:text-4xl"
+            @click="scrollTo('home')"
+            class="block text-xl lg:text-4xl font-bold text-primary"
+            >Finn</a
           >
-            Jindan
-          </a>
         </div>
-
-        <!-- Hamburger Menu -->
         <div class="flex items-center px-4">
-          <nav
-            id="nav-menu"
-            :class="[
-              'absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full block lg:static lg:bg-transparent lg:shadow-none lg:max-w-full lg:rounded-none',
-            ]"
-          >
-            <ul class="block lg:flex">
-              <li>
+          <nav id="nav-menu" class="scale-0 lg:scale-100 lg:flex">
+            <ul class="flex space-x-8">
+              <li class="group">
                 <a
                   @click="scrollInto('home')"
-                  class="group-list hover:text-primary flex"
+                  class="py-2 text-sm lg:text-base text-dark group-hover:text-primary"
                   >Beranda</a
                 >
               </li>
-              <li>
+              <li class="group">
                 <a
                   @click="scrollInto('about')"
-                  class="group-list hover:text-primary flex"
+                  class="py-2 text-sm lg:text-base text-dark group-hover:text-primary"
                   >Tentang Saya</a
                 >
               </li>
-              <li>
+              <li class="group">
                 <a
                   @click="scrollInto('portofolio')"
-                  class="group-list hover:text-primary flex"
-                  >Portofolio</a
+                  class="py-2 text-sm lg:text-base text-dark group-hover:text-primary"
+                  >Portfolio</a
                 >
               </li>
-              <li>
+              <li class="group">
+                <a
+                  @click="scrollInto('home')"
+                  class="py-2 text-sm lg:text-base text-dark group-hover:text-primary"
+                  >Clients</a
+                >
+              </li>
+              <li class="group">
                 <a
                   @click="scrollInto('blog')"
-                  class="group-list hover:text-primary flex"
+                  class="py-2 lg:text-base text-dark group-hover:text-primary"
                   >Blog</a
                 >
               </li>
-              <li>
+              <li class="group">
                 <a
                   @click="scrollInto('contact')"
-                  class="group-list hover:text-primary flex"
+                  class="py-2 text-sm lg:text-base text-dark group-hover:text-primary"
                   >Contact</a
                 >
               </li>
@@ -87,27 +84,22 @@ onMounted(() => {
   </header>
 </template>
 
-<style>
-.navbar-fixed {
-  @apply fixed z-[9999] bg-white bg-opacity-80;
-  backdrop-filter: blur(5px);
-  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
-}
+<style scoped>
+@media (max-width: 767px) {
+  header {
+    padding: 10px 0;
+  }
 
-.hamburger-active > span:nth-child(1) {
-  @apply rotate-45;
-}
-.hamburger-active > span:nth-child(2) {
-  @apply scale-0;
-}
-.hamburger-active > span:nth-child(3) {
-  @apply -rotate-45;
-}
+  #nav-menu ul {
+    flex-direction: row;
+  }
 
-.group-list {
-  @apply text-base text-dark py-2 mx-8;
-}
-.hamburger-line {
-  @apply w-[30px] h-[2px] bg-dark;
+  #nav-menu li {
+    width: auto;
+  }
+
+  #nav-menu li a {
+    padding: 10px 0;
+  }
 }
 </style>

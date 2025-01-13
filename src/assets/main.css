@@ -23,7 +23,7 @@ body {
 }
 
 .group-list {
-  @apply text-base text-dark py-2 mx-8;
+  @apply text-2xl text-dark py-2 mx-8;
 }
 .hamburger-line {
   @apply w-[30px] h-[2px] bg-dark;

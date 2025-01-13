@@ -1,5 +1,4 @@
-<script setup>
-</script>
+<script setup></script>
 
 <template>
   <section id="about" class="pt-46 pb-32">
@@ -22,7 +21,7 @@
         </div>
 
         <div class="w-full px-4 lg:w-1/2">
-          <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl pt-10">
+          <h3 class="font-bold text-dark text-3xl mb-4 lg:text-3xl pt-10">
             Add Saya!
           </h3>
           <p class="font-medium text-base text-sky-600 mb-6 lg:text-lg">
@@ -36,14 +35,16 @@
               href="#"
               class="w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-200 hover:border-primary hover:bg-primary hover:text-dark"
             >
-              <i class="pi pi-youtube hover:text-white text-sky-300"></i>
+              <i
+                class="pi pi-youtube text-2xl hover:text-white text-sky-300"
+              ></i>
             </a>
             <a
               href=""
               class="w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-200 hover:border-primary hover:bg-primary hover:text-white"
             >
               <i
-                class="pi pi-discord fill-current hover:text-white text-sky-300"
+                class="pi pi-discord text-2xl fill-current hover:text-white text-sky-300"
               ></i>
             </a>
             <a
@@ -51,23 +52,23 @@
               class="w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-200 hover:border-primary hover:bg-primary hover:text-white"
             >
               <i
-                class="pi pi-twitter fill-current hover:text-white text-sky-300"
+                class="pi pi-twitter text-xl fill-current hover:text-white text-sky-300"
               ></i>
             </a>
             <a
               href="https://www.facebook.com/profile.php?id=100071960914104"
-              class="w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-200 hover:border-primary hover:bg-primary hover:text-white"
+              class="w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-200 grayscale-100 hover:border-primary hover:bg-primary hover:text-white"
             >
               <i
-                class="pi pi-facebook fill-current hover:text-white text-sky-300"
+                class="pi pi-facebook text-2xl fill-current hover:text-white text-sky-300"
               ></i>
             </a>
             <a
-              href="https://www.instagram.com/enopy.finn/"
+              href="https://www.github.com/finncydevs/"
               class="w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-200 hover:border-primary hover:bg-primary hover:text-white"
             >
               <i
-                class="pi pi-instagram fill-current hover:text-white text-sky-300"
+                class="pi pi-github fill-current text-2xl hover:text-white text-sky-300"
               ></i>
             </a>
           </div>

@@ -68,7 +68,7 @@ const blogs = ref([
             <div class="py-8 px-6">
               <a
                 :href="blog.link"
-                class="block mb-3 font-semibold text-2xl text-sky-800 hover:text-primary truncate"
+                class="[block mb-3 font-semibold text-2xl text-sky-800 hover:text-primary truncate, blog.id !== 2 ? 'truncate' : '']"
                 >{{ blog.title }}</a
               >
               <p class="font-medium text-base text-sky-400 mb-4">
