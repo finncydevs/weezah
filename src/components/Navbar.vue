@@ -1,11 +1,6 @@
 <script setup>
 import { ref, onMounted } from "vue";
 import { scrollInto } from "@/utils/script";
-const isMenuVisible = ref(false);
-
-const toggleMenu = () => {
-  isMenuVisible.value = !isMenuVisible.value;
-};
 
 async function navbarScroll() {
   const header = document.querySelector("header");
@@ -42,39 +37,17 @@ onMounted(() => {
 
         <!-- Hamburger Menu -->
         <div class="flex items-center px-4">
-          <button
-            id="hamburger"
-            name="hamburger"
-            type="button"
-            class="block lg:hidden"
-            @click="toggleMenu"
-          >
-            <span
-              class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"
-              :class="{ 'hamburger-active': isMenuVisible }"
-            ></span>
-            <span
-              class="hamburger-line transition duration-300 ease-in-out"
-            ></span>
-            <span
-              class="hamburger-line transition duration-300 ease-in-out"
-            ></span>
-            <span
-              class="hamburger-line origin-left transition duration-300 ease-in-out"
-              :class="{ 'hamburger-active': isMenuVisible }"
-            ></span>
-          </button>
-          <!-- Navbar -->
           <nav
             id="nav-menu"
             :class="[
-              'absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:shadow-none lg:max-w-full lg:rounded-none',
-              { hidden: !isMenuVisible },
+              'absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full block lg:static lg:bg-transparent lg:shadow-none lg:max-w-full lg:rounded-none',
             ]"
           >
             <ul class="block lg:flex">
               <li>
-                <a @click="Beranda" class="group-list hover:text-primary flex"
+                <a
+                  @click="scrollInto('home')"
+                  class="group-list hover:text-primary flex"
                   >Beranda</a
                 >
               </li>

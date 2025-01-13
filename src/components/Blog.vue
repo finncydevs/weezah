@@ -29,6 +29,15 @@ const blogs = ref([
       "https://gamerstereotype.wordpress.com/wp-content/uploads/2010/04/make-love-not-warcraft2.jpg",
     link: "#",
   },
+  {
+    id: 4,
+    title: "Left 4 Dead 2 Game Anti Dead 🔥",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat officiis sunt voluptate, minima maiores reprehenderit.",
+    image:
+      "https://cdn1.epicgames.com/salesEvent/salesEvent/EN_Rebellion_ZombieArmy4_Left4Dead-CharacterPack01_S1_2560x1440_2560x1440-45465decc551676c6b5d329237bc5e6b",
+    link: "#",
+  },
 ]);
 </script>
 

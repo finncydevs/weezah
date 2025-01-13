@@ -40,7 +40,7 @@ import { scrollInto } from "@/utils/script";
           <ul class="text-slate-300">
             <li>
               <a
-                @click="scrollInto('beranda')"
+                @click="scrollInto('home')"
                 class="inline-block text-base hover:text-primary mb-3"
                 >Beranda</a
               >
