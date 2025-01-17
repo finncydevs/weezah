@@ -63,8 +63,14 @@ const blogs = ref([
           :key="blog.id"
           class="w-full px-4 lg:w-1/2 xl:w-1/3"
         >
-          <div class="bg-white rounded-xl shadow-lg mb-10 overflow-hidden">
-            <img :src="blog.image" :alt="blog.title" class="w-full" />
+          <div
+            class="bg-white rounded-xl shadow-lg mb-10 overflow-hidden hover:ring-2 hover:ring-primary"
+          >
+            <img
+              :src="blog.image"
+              :alt="blog.title"
+              class="w-full hover:scale-125 ease-in-out duration-300"
+            />
             <div class="py-8 px-6">
               <a
                 :href="blog.link"

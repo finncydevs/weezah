@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <section id="about" class="pt-46 pb-32">
+  <section id="about" class="pt-46 pb-32 bg-slate-900">
     <div class="container">
       <div class="flex flex-wrap">
         <!-- Left Section: About Me -->
@@ -57,7 +57,7 @@
             </a>
             <a
               href="https://www.facebook.com/profile.php?id=100071960914104"
-              class="w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-200 grayscale-100 hover:border-primary hover:bg-primary hover:text-white"
+              class="group w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-200 grayscale-100 hover:border-primary hover:bg-primary hover:text-white"
             >
               <i
                 class="pi pi-facebook text-2xl fill-current hover:text-white text-sky-300"
@@ -65,10 +65,10 @@
             </a>
             <a
               href="https://www.github.com/finncydevs/"
-              class="w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-200 hover:border-primary hover:bg-primary hover:text-white"
+              class="group w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-200 hover:border-primary hover:bg-primary hover:text-white"
             >
               <i
-                class="pi pi-github fill-current text-2xl hover:text-white text-sky-300"
+                class="pi pi-github text-2xl group-hover:text-white text-sky-300"
               ></i>
             </a>
           </div>

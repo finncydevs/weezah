@@ -3,7 +3,7 @@ import { scrollInto } from "@/utils/script";
 </script>
 
 <template>
-  <footer class="bg-slate-800 pt-24 pb-12">
+  <footer class="bg-slate-900 pt-24 pb-12">
     <div class="container">
       <div class="flex flex-wrap">
         <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">

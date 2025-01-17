@@ -11,29 +11,26 @@ const projects = [
     img: photo1,
     alt: "Photo editing",
     title: "Photo editing photoshop",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, iusto! Aliquam, corporis.",
+    description: " Kadang saya juga mendesain logo atau desain untuk kaos.",
   },
   {
     img: photo2,
     alt: "Photo editing stlyed",
     title: "Photoshop stlyed",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, iusto! Aliquam, corporis.",
+    description: "Editing style terfavorit saya",
   },
   {
     img: photo3,
     alt: "Potografi",
     title: "Mencoba potografi",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, iusto! Aliquam, corporis.",
+    description: "Saya suka memfoto pemandangan",
   },
   {
     img: photo4,
     alt: "WhatsApp bot",
     title: "FionaBot di Whatsapp",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, iusto! Aliquam, corporis.",
+      "Kodingannya bukan punya saya seluruhnya (fork dari github lain) tapi saya menambahkan beberapa fitur dan memperbaiki beberapa kodingan",
   },
 ];
 </script>
@@ -47,9 +44,7 @@ const projects = [
           <h4 class="font-semibold text-lg text-primary mb-2">Portofolio</h4>
           <h2 class="font-bold text-dark text-3xl mb-4">Project Terbaru</h2>
           <p class="font-medium text-md text-sky-500">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque harum
-            maiores, dolorem, dolorum magni fugit illum ex officiis quia tempore
-            velit.
+            Beberapa hal yang saya tertarik
           </p>
         </div>
       </div>
@@ -61,9 +56,17 @@ const projects = [
           v-for="(project, index) in projects"
           :key="index"
           class="mb-12 p-4 md:w-1/2"
+          data-aos="fade-up"
+          data-aos-duration="1000"
         >
-          <div class="overflow-hidden rounded-md shadow-md">
-            <img :src="project.img" :alt="project.alt" class="w-full" />
+          <div
+            class="overflow-hidden rounded-md shadow-md hover:ring-4 hover:shadow-inner"
+          >
+            <img
+              :src="project.img"
+              :alt="project.alt"
+              class="w-full hover:scale-125 hover:shadow-inner duration-300 ease-in-out"
+            />
           </div>
           <h3 class="mt-5 mb-3 text-xl font-semibold text-dark">
             {{ project.title }}
@@ -76,4 +79,3 @@ const projects = [
     </div>
   </section>
 </template>
-
