@@ -21,9 +21,9 @@ onMounted(() => {
 
 <template>
   <header class="absolute top-0 left-0 z-10 flex w-full items-center">
-    <div class="container flex items-center justify-between px-4">
-      <a href="#home" class="text-2xl font-bold text-primary">Weezah</a>
-      <div class="hidden lg:flex flex-1 justify-center">
+    <div class="container flex items-center justify-between px-4 py-3 lg:py-0">
+      <a @click="scrollInto('home')" class="text-2xl font-bold text-primary">Weezah</a>
+      <div class="ml-3 lg:flex flex-1 justify-center">
         <form class="flex items-center w-full max-w-lg">
           <input
             type="search"
@@ -44,19 +44,26 @@ onMounted(() => {
       <!-- Navbar -->
       <nav
         id="nav-menu"
-        class="hidden absolute right-4 top-full bg-transparent shadow-md rounded-md w-full max-w-xs py-4 lg:block lg:static lg:w-auto lg:bg-transparent lg:shadow-none"
+        class="hidden absolute right-4 top-full py bg-transparent shadow-md rounded-md w-full max-w-xs py-4 lg:block lg:static lg:w-auto lg:bg-transparent lg:shadow-none"
       >
         <ul class="flex flex-col lg:flex-row">
           <li class="group">
             <a
-              href="#home"
+              @click="scrollInto('home')"
               class="block px-4 py-2 text-base text-primary font-semibold hover:text-blue-500"
               >Beranda</a
             >
           </li>
           <li class="group">
             <a
-              href="#contact"
+              @click="scrollInto('weather')"
+              class="block px-4 py-2 text-base text-primary font-semibold hover:text-blue-500"
+              >Weather</a
+            >
+          </li>
+          <li class="group">
+            <a
+              @click="scrollInto('contact')"
               class="block px-4 py-2 text-base text-primary font-semibold hover:text-blue-500"
               >Contact</a
             >
@@ -65,7 +72,8 @@ onMounted(() => {
             <form class="flex items-center w-full">
               <input
                 type="search"
-                class="block w-full p-2 pl-10 bg-transparent text-sm border rounded-l-md border-gray-300"
+                id="mobile-search"
+                class="flex lg:block w-full p-2 pl-10 bg-transparent text-sm border rounded-l-md border-gray-300"
                 placeholder="Search.."
                 required
               />
@@ -86,7 +94,7 @@ onMounted(() => {
 
 @media (max-width: 767px) {
   #nav-menu {
-    display: none; /* Initially hidden */
+    display: none;
   }
 
   #hamburger:focus + #nav-menu,

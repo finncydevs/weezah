@@ -4,10 +4,12 @@ import Hero from "@/components/Hero.vue";
 import Porto from "@/components/Weather.vue";
 import Contact from "@/components/Contact.vue";
 import Footer from "@/components/Footer.vue";
+import About from "@/components/About.vue";
 </script>
 <template>
   <Navbar />
   <Hero />
+  <About />
   <Porto />
   <Contact />
   <Footer />

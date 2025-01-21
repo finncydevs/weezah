@@ -4,7 +4,7 @@ import { scrollInto } from "@/utils/script";
 
 <template>
   <footer class="bg-slate-900 pt-24 pb-12">
-    <div class="container">
+    <div class="container flex justify-center items-center">
       <div class="flex flex-wrap">
         <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
           <h2 class="font-bold text-4xl mb-5 text-white">Finn/Jindan</h2>
@@ -20,17 +20,17 @@ import { scrollInto } from "@/utils/script";
           <ul class="text-slate-300">
             <li>
               <a href="" class="inline-block text-base hover:text-primary mb-3"
-                >Gaming</a
+                >Weather</a
               >
             </li>
             <li>
               <a href="" class="inline-block text-base hover:text-primary mb-3"
-                >Games</a
+                >Weather app</a
               >
             </li>
             <li>
               <a href="" class="inline-block text-base hover:text-primary mb-3"
-                >Hobi</a
+                >Learning</a
               >
             </li>
           </ul>
@@ -47,23 +47,16 @@ import { scrollInto } from "@/utils/script";
             </li>
             <li>
               <a
-                @click="scrollInto('about')"
-                class="inline-block text-base hover:text-primary mb-3"
-                >Tentang Saya</a
-              >
-            </li>
-            <li>
-              <a
-                @click="scrollInto('blog')"
-                class="inline-block text-base hover:text-primary mb-3"
-                >Blog</a
-              >
-            </li>
-            <li>
-              <a
                 @click="scrollInto('contact')"
                 class="inline-block text-base hover:text-primary mb-3"
                 >Contact</a
+              >
+            </li>
+            <li>
+              <a
+                @click="scrollInto('weather')"
+                class="inline-block text-base hover:text-primary mb-3"
+                >Weather</a
               >
             </li>
           </ul>

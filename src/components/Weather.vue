@@ -67,7 +67,7 @@ watch(selectedCity, (newCity) => {
 
 <template>
   <section
-    id="portfolio"
+    id="weather"
     class="min-h-screen bg-gradient-to-r from-blue-500 to-blue-700 text-white flex items-center justify-center p-4"
   >
     <div class="container mx-auto flex justify-center items-center">
