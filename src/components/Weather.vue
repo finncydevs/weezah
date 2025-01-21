@@ -74,7 +74,7 @@ watch(selectedCity, (newCity) => {
       <div
         class="w-full max-w-4xl bg-blue-800 bg-opacity-80 rounded-lg shadow-lg p-6"
       >
-        <!-- Header Section -->
+        <!-- Header -->
         <div class="text-center mb-6">
           <h1 class="text-3xl font-bold uppercase tracking-wide">
             Weather Forecast
@@ -159,10 +159,4 @@ watch(selectedCity, (newCity) => {
 </template>
 
 <style>
-#portofolio {
-  background-image: "./assets/imgs/clouds.png";
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 </style>

@@ -51,7 +51,7 @@ onMounted(() => {
             <a
               @click="scrollInto('home')"
               class="block px-4 py-2 text-base text-primary font-semibold hover:text-blue-500"
-              >Beranda</a
+              >Home</a
             >
           </li>
           <li class="group">

@@ -31,8 +31,8 @@ import { ref, onMounted } from "vue";
             Contact me
           </button>
         </div>
-        <!-- <div class="w-full h-full self-center px-4 lg:w-1/2">
-          <img src="../assets/imgs/clouds.jpg" alt="">
+        <!-- <div class="w-full h-full self-center px-6 lg:w-1/2">
+          <img src="../assets/imgs/cloud.png" alt="" />
         </div> -->
       </div>
     </div>

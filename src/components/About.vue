@@ -10,22 +10,25 @@
         <!-- Left Section: About Me -->
         <div class="w-full px-4 mb-10 lg:w-1/2">
           <h4 class="font-bold uppercase text-primary text-lg mb-3">
-            Tentang Project Ini
+            About this project
           </h4>
           <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">
-            Ayo belajar JavaScript
+            Lets learn JavaScript
           </h2>
           <p class="font-medium text-base text-sky-200 max-w-md">
-            JavaScript adalah bahasa pemrograman yang paling populer di dunia.
+            Why JavaScript? JavaScript is one of the most populer programming in
+            the world. It's used in many website and application. So, it's a
+            good idea to learn JavaScript.
           </p>
         </div>
 
         <div class="w-full px-4 lg:w-1/2">
           <h3 class="font-bold text-dark text-3xl mb-4 lg:text-3xl pt-10">
-            Projek ini dibuat untuk
+            This project is for my internship report probably
           </h3>
           <p class="font-medium text-base text-sky-200 mb-6 lg:text-lg">
-            Sepertinya projek ini akan dijadikan sebagai laporan PKL saya
+            I still have no idea what to do with this project, but I'm sure I'll
+            figure it out soon.
           </p>
         </div>
       </div>
