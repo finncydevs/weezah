@@ -65,40 +65,42 @@ import { scrollInto } from "@/utils/script";
           <div class="flex items-center justify-center mb-5">
             <a
               href="#"
-              class="w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-200 hover:border-primary hover:bg-primary hover:text-dark"
+              class="group w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-400 hover:border-sky-600 hover:bg-sky-600"
             >
-              <i class="pi pi-youtube hover:text-white text-sky-300"></i>
+              <i
+                class="pi pi-youtube text-xl group-hover:text-white text-sky-300"
+              ></i>
             </a>
             <a
               href=""
-              class="w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-200 hover:border-primary hover:bg-primary hover:text-white"
+              class="group w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-400 hover:border-sky-600 hover:bg-sky-600"
             >
               <i
-                class="pi pi-discord fill-current hover:text-white text-sky-300"
+                class="pi pi-discord text-xl group-hover:text-white text-sky-300"
               ></i>
             </a>
             <a
               href="#"
-              class="w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-200 hover:border-primary hover:bg-primary hover:text-white"
+              class="group w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-400 hover:border-sky-600 hover:bg-sky-600"
             >
               <i
-                class="pi pi-twitter fill-current hover:text-white text-sky-300"
+                class="pi pi-twitter text-xl group-hover:text-white text-sky-300"
               ></i>
             </a>
             <a
               href="https://www.facebook.com/profile.php?id=100071960914104"
-              class="w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-200 hover:border-primary hover:bg-primary hover:text-white"
+              class="group w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-400 hover:border-sky-600 hover:bg-sky-600"
             >
               <i
-                class="pi pi-facebook fill-current hover:text-white text-sky-300"
+                class="pi pi-facebook text-2xl group-hover:text-white text-sky-300"
               ></i>
             </a>
             <a
               href="https://www.instagram.com/enopy.finn/"
-              class="w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-200 hover:border-primary hover:bg-primary hover:text-white"
+              class="group w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-400 hover:border-sky-600 hover:bg-sky-600"
             >
               <i
-                class="pi pi-instagram fill-current hover:text-white text-sky-300"
+                class="pi pi-instagram text-xl group-hover:text-white text-sky-300"
               ></i>
             </a>
           </div>
