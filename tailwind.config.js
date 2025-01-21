@@ -11,9 +11,9 @@ export default {
         sans: ["Poppins", "sans-serif"],
       },
       colors: {
-        primary: "#0ea5e9",
-        dark: "#0369a1",
-        secondary: "#0ea5e9",
+        primary: "#e0f2fe",
+        dark: "#e0f2fe",
+        secondary: "#e0f2fe",
       },
       screens: {
         "2xl": "1320px",
@@ -26,7 +26,5 @@ export default {
   variants: {
     extend: {},
   },
-  plugins: [
-    
-  ],
+  plugins: [],
 };

@@ -2,7 +2,7 @@
 import Navbar from "@/components/Navbar.vue";
 import Hero from "@/components/Hero.vue";
 import About from "@/components/About.vue";
-import Porto from "@/components/Porto.vue";
+import Porto from "@/components/Weather.vue";
 import Client from "@/components/Client.vue";
 import Blog from "@/components/Blog.vue";
 import Contact from "@/components/Contact.vue";
@@ -11,10 +11,10 @@ import Footer from "@/components/Footer.vue";
 <template>
   <Navbar />
   <Hero />
-  <About />
+  <!-- <About /> -->
   <Porto />
   <Client />
-  <Blog />
+  <!-- <Blog /> -->
   <Contact />
   <Footer />
 </template>

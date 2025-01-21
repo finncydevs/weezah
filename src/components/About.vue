@@ -33,26 +33,26 @@
           <div class="flex items-center">
             <a
               href="#"
-              class="w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-200 hover:border-primary hover:bg-primary hover:text-dark"
+              class="group w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-200 hover:border-primary hover:bg-primary hover:text-dark"
             >
               <i
-                class="pi pi-youtube text-2xl hover:text-white text-sky-300"
+                class="pi pi-youtube text-2xl group-hover:text-white text-sky-300"
               ></i>
             </a>
             <a
               href=""
-              class="w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-200 hover:border-primary hover:bg-primary hover:text-white"
+              class="group w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-200 hover:border-primary hover:bg-primary hover:text-white"
             >
               <i
-                class="pi pi-discord text-2xl fill-current hover:text-white text-sky-300"
+                class="pi pi-discord text-2xl fill-current group-hover:text-white text-sky-300"
               ></i>
             </a>
             <a
               href="#"
-              class="w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-200 hover:border-primary hover:bg-primary hover:text-white"
+              class="group w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-200 hover:border-primary hover:bg-primary hover:text-white"
             >
               <i
-                class="pi pi-twitter text-xl fill-current hover:text-white text-sky-300"
+                class="pi pi-twitter text-xl fill-current group-hover:text-white text-sky-300"
               ></i>
             </a>
             <a
@@ -60,7 +60,7 @@
               class="group w-10 h-10 mr-3 rounded-full flex justify-center items-center border-2 border-sky-200 grayscale-100 hover:border-primary hover:bg-primary hover:text-white"
             >
               <i
-                class="pi pi-facebook text-2xl fill-current hover:text-white text-sky-300"
+                class="pi pi-facebook text-2xl fill-current group-hover:text-white text-sky-300"
               ></i>
             </a>
             <a
@@ -77,3 +77,8 @@
     </div>
   </section>
 </template>
+<style scoped>
+#about {
+  background-image: "https://preview.redd.it/you-should-kill-yourself-now-template-v0-yj3tm7htn4x81.jpg?auto=webp&s=dd9aa2b5387af8e60c2af1e3c5993b2ab8a7f829";
+}
+</style>
