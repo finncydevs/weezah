@@ -146,7 +146,7 @@ watch(selectedCity, (newCity) => {
           <div
             v-for="(day, index) in forecastData"
             :key="index"
-            class="text-center bg-blue-900 bg-opacity-70 rounded-lg p-3 shadow-md"
+            class="text-center bg-blue-900 bg-opacity-70 rounded-lg p-3 shadow-md hover:scale-125 duration-300 ease-out hover:shadow-xl"
           >
             <p class="text-lg font-semibold">{{ day.day }}</p>
             <p class="text-sm mt-1">
