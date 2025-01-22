@@ -79,7 +79,9 @@ onMounted(() => {
                 placeholder="Search.."
                 required
               />
-              <button type="submit" class="">Search</button>
+              <button type="submit" @click="scrollInto('weather')">
+                Search
+              </button>
             </form>
           </li>
         </ul>
