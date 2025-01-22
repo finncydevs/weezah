@@ -22,7 +22,9 @@ onMounted(() => {
 <template>
   <header class="absolute top-0 left-0 z-10 flex w-full items-center">
     <div class="container flex items-center justify-between px-4 py-3 lg:py-0">
-      <a @click="scrollInto('home')" class="text-2xl font-bold text-primary">Weezah</a>
+      <a @click="scrollInto('home')" class="text-2xl font-bold text-primary"
+        >Weezah</a
+      >
       <div class="ml-3 lg:flex flex-1 justify-center">
         <form class="flex items-center w-full max-w-lg">
           <input

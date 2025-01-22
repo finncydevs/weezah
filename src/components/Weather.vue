@@ -151,6 +151,9 @@ watch(selectedCity, (newCity) => {
               {{ day.temp_min }}° / {{ day.temp_max }}°
             </p>
             <p class="text-sm mt-2 capitalize">{{ day.description }}</p>
+            <span v-if="day.description === 'rain'">🌧️</span>
+            <span v-if="day.description === 'clouds'">☁️</span>
+            <span v-if="day.description === 'sunny'">☀️</span>
           </div>
         </div>
       </div>
@@ -158,5 +161,4 @@ watch(selectedCity, (newCity) => {
   </section>
 </template>
 
-<style>
-</style>
+<style></style>
