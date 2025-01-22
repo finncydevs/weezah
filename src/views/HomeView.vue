@@ -7,10 +7,10 @@ import Footer from "@/components/Footer.vue";
 import About from "@/components/About.vue";
 </script>
 <template>
-  <Navbar @citySelected="updatedCity" />
+  <Navbar />
   <Hero />
   <About />
-  <Weather :selectedCity="selectedCity" />
+  <Weather />
   <Contact />
   <Footer />
 </template>

@@ -1,5 +1,4 @@
 <script setup>
-import osaka from "@/assets/imgs/sataandagi.png";
 import { ref, onMounted } from "vue";
 </script>
 
@@ -34,8 +33,10 @@ import { ref, onMounted } from "vue";
         <div class="w-full h-full self-center px-4 lg:w-1/2">
           <model-viewer
             alt="clooud_tea"
-            src="../assets/imgs/cloud_tea.glb"
+            src="/cloud.glb"
             camera-controls
+            id="cloud"
+            class="scale-150 saturate-50 mb-10 lg:scale-250 mx-auto"
             touch-action="pan-y"
           ></model-viewer>
         </div>
@@ -44,4 +45,10 @@ import { ref, onMounted } from "vue";
   </section>
 </template>
 
-<style scoped></style>
+<style scoped>
+#cloud {
+  filter: saturate(250%);
+  filter: contrast(250%);
+  filter: brightness(75%);
+}
+</style>

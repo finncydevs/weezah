@@ -21,6 +21,12 @@ export default {
       gridTemplateColumns: {
         "70/30": "20% 28%",
       },
+      scale: {
+        175: "1.75",
+        200: "2", // 200% size
+        250: "2.5", // 250% size
+        300: "3", // 250% size
+      },
     },
   },
   variants: {
