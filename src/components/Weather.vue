@@ -73,6 +73,8 @@ watch(selectedCity, (newCity) => {
     <div class="container mx-auto flex justify-center items-center">
       <div
         class="w-full max-w-4xl bg-blue-800 bg-opacity-80 rounded-lg shadow-lg p-6"
+        data-aos="fade-up"
+        data-aos-duration="1000"
       >
         <!-- Header -->
         <div class="text-center mb-6">

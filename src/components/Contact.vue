@@ -5,9 +5,25 @@
     <div class="container flex justify-center items-center">
       <div class="w-full px-4">
         <div class="max-w-xl mx-auto text-center mb-16">
-          <h4 class="font-semibold text-lg text-primary mb-2">Contact</h4>
-          <h2 class="font-bold text-dark text-3xl mb-4">Contact Us</h2>
-          <p class="font-medium text-md text-sky-500">
+          <h4
+            class="font-semibold text-lg text-primary mb-2"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            Contact
+          </h4>
+          <h2
+            class="font-bold text-dark text-3xl mb-4"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            Contact Us
+          </h2>
+          <p
+            class="font-medium text-md text-sky-500"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
             If theres anything you want to critic or say, don't hold back
           </p>
         </div>
@@ -16,6 +32,8 @@
         action="https://formsubmit.co/2acb33173f015c4b7a7383d8c13cae0d"
         method="post"
         class="w-full lg:w-2/3"
+        data-aos="fade-up"
+        data-aos-duration="1000"
       >
         <div
           class="w-full lg:mx-auto justify-center backdrop-blur-xl border border-sky-900 pb-6 pt-6 rounded-md shadow-sm items-center self-center"

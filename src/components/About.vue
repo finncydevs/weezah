@@ -8,7 +8,11 @@
     <div class="container">
       <div class="flex flex-wrap">
         <!-- Left Section: About Me -->
-        <div class="w-full px-4 mb-10 lg:w-1/2">
+        <div
+          class="w-full px-4 mb-10 lg:w-1/2"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <h4 class="font-bold uppercase text-primary text-lg mb-3">
             About this project
           </h4>
@@ -22,7 +26,11 @@
           </p>
         </div>
 
-        <div class="w-full px-4 lg:w-1/2">
+        <div
+          class="w-full px-4 lg:w-1/2"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <h3 class="font-bold text-dark text-3xl mb-4 lg:text-3xl pt-10">
             This project is for my internship report probably
           </h3>

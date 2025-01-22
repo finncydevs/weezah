@@ -12,6 +12,7 @@ import { ref, onMounted } from "vue";
         <div
           class="w-full h-full self-center px-4 lg:w-1/2"
           data-aos="fade-right"
+          data-aos-duration="1000"
         >
           <h1 id="type" class="text-5xl font-bold text-primary">Weezah</h1>
           <h2 class="mb-5 text-lg font-semibold text-primary lg:text-2xl mt-3">
@@ -30,12 +31,17 @@ import { ref, onMounted } from "vue";
             Contact me
           </button>
         </div>
-        <div class="w-full h-full self-center px-4 lg:w-1/2">
+        <div
+          class="w-full h-full self-center px-4 lg:w-1/2"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
           <model-viewer
             alt="clooud_tea"
             src="/cloud.glb"
             camera-controls
             id="cloud"
+            aa
             class="scale-150 saturate-50 mb-10 lg:scale-250 mx-auto"
             touch-action="pan-y"
           ></model-viewer>
