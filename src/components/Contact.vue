@@ -73,7 +73,7 @@
           <div class="w-full px-4">
             <button
               type="submit"
-              class="w-full rounded-md bg-transparent border border-sky-600 hover:bg-sky-600 py-3 px-8 text-base font-semibold text-sky-400 transition duration-500 hover:opacity-80 hover:shadow-lg"
+              class="w-full rounded-md bg-transparent border border-sky-600 hover:bg-sky-600 py-3 px-8 text-base font-semibold text-sky-400 transition duration-500 hover:text-sky-200 hover:shadow-lg"
             >
               Send
             </button>
