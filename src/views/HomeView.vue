@@ -5,6 +5,7 @@ import Weather from "@/components/Weather.vue";
 import Contact from "@/components/Contact.vue";
 import Footer from "@/components/Footer.vue";
 import About from "@/components/About.vue";
+import { Analytics } from "@vercel/analytics/next";
 </script>
 <template>
   <Navbar />
@@ -13,4 +14,5 @@ import About from "@/components/About.vue";
   <Weather />
   <Contact />
   <Footer />
+  <Analytics />
 </template>
